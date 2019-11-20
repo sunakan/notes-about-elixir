@@ -1,0 +1,10 @@
+---
+
+version: "3.7"
+
+services:
+  elixir:
+    working_dir: /app
+    image: elixir:${ELIXIR_VERSION_TAG}
+    volumes:
+      - ./:/app
