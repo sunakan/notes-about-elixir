@@ -3,3 +3,19 @@
 == 2019/11/20時点では最新は1.9.4
 
 * 購入した本は1.2(OHM社のやつ)
+
+== espe使いたい
+
+----
+$ mix new sunabako
+$ cd sunabako
+$ mix test
+Compiling 1 file (.ex)
+Generated sunabako app
+..
+
+Finished in 0.1 seconds
+1 doctest, 1 test, 0 failures
+
+Randomized with seed 761212
+----
