@@ -4,7 +4,7 @@ version: "3.7"
 
 services:
   elixir:
-    working_dir: /app
+    working_dir: /sunabako
     image: elixir:${ELIXIR_VERSION_TAG}
     volumes:
-      - ./:/app
+      - ./sunabako:/sunabako
