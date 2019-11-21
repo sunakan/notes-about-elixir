@@ -12,8 +12,11 @@ defmodule Sunabako do
       :world
 
   """
-  def hello(arg) do
-    return :world if arg.nil?
-    "Hello, #{arg}"
+  def hello(arg \\ nil)do
+    if arg do
+      "Hello, #{arg}"
+    else
+      :world
+    end
   end
 end
